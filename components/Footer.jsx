@@ -100,11 +100,6 @@ const Footer = () => {
                   <Link href="/sign-in">Sign In</Link>
                 </div>
               )}
-              <div className="custom-header-hover-underline">
-                <Link href="https://navkaracademy.in" target="_blank">
-                  Off. Website
-                </Link>
-              </div>
             </div>
           </div>
         </div>
@@ -129,7 +124,7 @@ const Footer = () => {
                   href="tel:+919930840042"
                   className="text-muted-foreground text-[14px] hover:text-accent"
                 >
-                  +91 99308 40042
+                  +91 99308 41111
                 </a>
               </div>
               <div>

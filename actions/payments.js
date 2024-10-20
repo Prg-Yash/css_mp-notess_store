@@ -12,7 +12,7 @@ export const paymentOptions = async (
     key: process.env.RAZORPAY_KEY_ID,
     amount: Number(orderData?.amountInput),
     currency: orderData.currency,
-    name: "Navkar Academy",
+    name: "Notes Store",
     description: "Buy authentic and best notes for your child/siblings.",
     image: "/demologo.png",
     order_id: orderData?.id,

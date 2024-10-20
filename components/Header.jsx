@@ -66,7 +66,7 @@ const Header = () => {
                   <SheetTitle className="flex justify-center items-center w-full mb-4">
                     <Image
                       src="/demologo.png"
-                      alt="Navkar Academy Logo"
+                      alt="demo logo"
                       width={1005}
                       height={1005}
                       className="h-[100px] object-contain w-fit"
@@ -120,13 +120,13 @@ const Header = () => {
                         href="tel:+919930840042"
                         className="text-muted-foreground text-[14px] hover:text-accent"
                       >
-                        +91 99308 40042
+                        +91 99308 41111
                       </a>
                     </div>
                     <div>
                       <h3 className="text-[18px] font-semibold">Mail:</h3>
                       <a
-                        href="mailto:info@navkaracademy.in"
+                        href="mailto:info@example.com"
                         className="text-muted-foreground text-[14px] hover:text-accent"
                       >
                         info@example.com
@@ -156,14 +156,14 @@ const Header = () => {
                 href="tel:+919930840042"
                 className="text-muted-foreground text-[14px] hover:text-accent"
               >
-                +91 99308 40042
+                +91 99308 41111
               </a>
             </div>
             <div className="w-[2px] h-[40px] bg-black/10 rounded-full" />
             <div>
               <h3 className="text-[18px] font-semibold">Mail:</h3>
               <a
-                href="mailto:info@navkaracademy.in"
+                href="mailto:info@example.com"
                 className="text-muted-foreground text-[14px] hover:text-accent"
               >
                 info@example.com
