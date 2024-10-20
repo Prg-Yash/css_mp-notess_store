@@ -112,7 +112,7 @@ const Footer = () => {
           <div className="w-full md:w-[60%]">
             {/* Google Map */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120626.92181555415!2d72.88484074403483!3d19.125577103735914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9c1fa130487%3A0xac3d8490bf4a2bc9!2sNavkar%20Academy!5e0!3m2!1sen!2sin!4v1723370707594!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.9555608064093!2d72.86737277497595!3d19.021679782171756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf48beff6adb%3A0x8b57459cf41f7a2c!2sVidyalankar%20Polytechnic!5e0!3m2!1sen!2sin!4v1729434628600!5m2!1sen!2sin"
               style={{ border: "0" }}
               allowFullScreen={true}
               loading="lazy"
@@ -138,7 +138,7 @@ const Footer = () => {
                   href="mailto:info@navkaracademy.in"
                   className="text-muted-foreground text-[14px] hover:text-accent"
                 >
-                  info@navkaracademy.in
+                  info@example.com
                 </a>
               </div>
               <div>
@@ -148,8 +148,8 @@ const Footer = () => {
                   target="_blank"
                   className="text-muted-foreground text-[14px] hover:text-accent"
                 >
-                  Plot No - 40, Shub Nil Shivam, Sector - 11, Kamothe, Panvel,
-                  Navi Mumbai, Maharashtra 410209
+                  This is a demo product for the notes ecommerce store.This can
+                  be used by the classes to sell their notes online.
                 </a>
               </div>
             </div>
@@ -177,8 +177,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="flex justify-between items-center w-full">
             <p className="text-black text-[14px]">
-              © {new Date().getFullYear()} Navkar Academy Store. All Rights
-              Reserved.
+              © {new Date().getFullYear()} Notes Store. All Rights Reserved.
             </p>
           </div>
         </div>

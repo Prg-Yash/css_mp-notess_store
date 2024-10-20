@@ -14,7 +14,7 @@ export const paymentOptions = async (
     currency: orderData.currency,
     name: "Navkar Academy",
     description: "Buy authentic and best notes for your child/siblings.",
-    image: "/logo.png",
+    image: "/demologo.png",
     order_id: orderData?.id,
     handler: async function (response) {
       console.log(response.razorpay_payment_id);

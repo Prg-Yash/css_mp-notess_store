@@ -47,10 +47,10 @@ const Header = () => {
           <div>
             <Link href="/">
               <Image
-                src="/logo.png"
+                src="/demologo.png"
                 alt="Demo Logo"
-                width={1000}
-                height={1000}
+                width={1005}
+                height={1005}
                 className="w-full h-[100px]"
               />
             </Link>
@@ -65,10 +65,10 @@ const Header = () => {
                 <SheetHeader className="my-4 w-full">
                   <SheetTitle className="flex justify-center items-center w-full mb-4">
                     <Image
-                      src="/logo.png"
+                      src="/demologo.png"
                       alt="Navkar Academy Logo"
-                      width={1000}
-                      height={1000}
+                      width={1005}
+                      height={1005}
                       className="h-[100px] object-contain w-fit"
                     />
                   </SheetTitle>
@@ -111,17 +111,6 @@ const Header = () => {
                 </SheetHeader>
 
                 <div className="w-full">
-                  <div className="flex justify-center items-center mb-4">
-                    <Button asChild className="w-full">
-                      <Link
-                        href="https://navkaracademy.in"
-                        target="_blank"
-                        className="flex gap-2"
-                      >
-                        <House /> Off. Website
-                      </Link>
-                    </Button>
-                  </div>
                   <div className="w-full h-[2px] bg-black/10 rounded-full my-4" />
                   {/* CTA Information */}
                   <div className="flex flex-col gap-4">
@@ -140,7 +129,7 @@ const Header = () => {
                         href="mailto:info@navkaracademy.in"
                         className="text-muted-foreground text-[14px] hover:text-accent"
                       >
-                        info@navkaracademy.in
+                        info@example.com
                       </a>
                     </div>
                     <div>
@@ -177,7 +166,7 @@ const Header = () => {
                 href="mailto:info@navkaracademy.in"
                 className="text-muted-foreground text-[14px] hover:text-accent"
               >
-                info@navkaracademy.in
+                info@example.com
               </a>
             </div>
             <div className="w-[2px] h-[40px] bg-black/10 rounded-full" />
@@ -188,8 +177,8 @@ const Header = () => {
                 target="_blank"
                 className="text-muted-foreground text-[14px] hover:text-accent"
               >
-                Plot No - 40, Shub Nil Shivam, Sector - 11, Kamothe, Panvel,
-                Navi Mumbai, Maharashtra 410209
+                This is a demo product for the notes ecommerce store.This can be
+                used by the classes to sell their notes online.
               </a>
             </div>
           </div>
@@ -239,26 +228,6 @@ const Header = () => {
                   <Link href="/sign-in">Sign In</Link>
                 </div>
               )}
-              {/* <div className="custom-header-hover-underline">
-                <a
-                  href="https://navkar-academy-store.vercel.app/"
-                  target="_blank"
-                >
-                  Store
-                </a>
-              </div> */}
-            </div>
-            <div className="">
-              <div>
-                <Link href="https://navkaracademy.in" target="_blank">
-                  <Button
-                    variant="native"
-                    className="flex justify-center items-center gap-2"
-                  >
-                    <House /> Off. Website
-                  </Button>
-                </Link>
-              </div>
             </div>
           </div>
         </div>
